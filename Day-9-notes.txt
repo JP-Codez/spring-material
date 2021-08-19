@@ -1,0 +1,148 @@
+
+Client side validation: 2 ways
+- form level validation
+- Field level validation
+
+JS:
+- predefined objects : string, math, array, date
+- user defined objects:
+
+   json  - object initializr
+
+var o1 = {prop1:val1 , prop2:val2 , .....}
+eg var person = {name:"aaa",age:22}
+
+o1.prop1  -> returns val1  
+
+properties in JSON are always read/write
+
+
+
+store, retrieve, transport
+
+technology agnostic
+
+XML
+JSON
+
+
+
+
+
+SGML
+ - HTML
+ - XML
+
+
+Java based FW:
+- set of classes, interfaces and methods
+
+Categories:
+- MVC FW : Struts, Vaadin, Grails, Spring MVC, eases the life of a WEB developer
+- Persistent/ORM FW : Hibernate, Toplink essentials, iBatis, eases the life of a DAO developer
+- Testing FW : JUnit, Cactus, HTTPUnit, DBUnit  eases the life of a Java developer
+- Security FW : Spring Security
+- Big Data FW : Apache Hadoop, Apache Spark
+- Application FW : Spring FW
+
+
+JavaBean specification
+
+Rules for Beans:
+- Class must be in a package
+- class must be public
+- class must have def no-arg cons
+- props must be in camel case - empid, empName, empFirstName
+- every prop must have set/get methods
+
+
+
+Injection:
+- setter
+- constr
+   - byType
+   - byIndex
+
+
+
+Build Tool:
+- Maven
+- Gradle
+
+
+archetype  -- model of a proj - readymade skeleton structure for any type of proj
+
+POM - Project Object Model   pom.xml  configuration of entire proj, heart of every maven app
+
+
+
+A dependency management tool - transitive dependency
+
+
+
+
+
+Spring
+Bean - application components  - Spring managed beans
+
+
+Configuring Spring app:
+- XML based configuration  (config.xml)
+- Annotation-based config - NO external file
+- Java based config
+
+
+@xyz
+class Emp{
+    @abc
+    incrSal()
+
+}
+
+@Annottaion 
+Where to place annotations:
+- class level 
+- method level
+- setter level
+- cons level
+- field/prop level
+-paramert level
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
