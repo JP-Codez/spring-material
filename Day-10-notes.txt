@@ -1,0 +1,76 @@
+3 ways of Configuring spring app:
+- XML-based  (ext xml file)
+- annotation-based (annotatuions in bean itself)
+- Java-based
+
+
+Spring Boot
+
+
+http://someserver.com/HRApp/Employees/emplist
+
+http://localhost:9000/
+
+Webservice : Service available over the web
+
+
+Web app's : human centric
+end cust - human, html
+
+
+web service : application centric
+end cust - app, json, xml
+
+- SOAP based
+- REST WS
+
+
+REpresentation State Transfer
+
+1) Rest URL's:
+
+action / verb based  NOT restful
+
+http://techarticles.com/TechArticles/getArticle/101
+http://techarticles.com/TechArticles/deletArticle/101
+http://techarticles.com/TechArticles/updateArticle/101
+http://techarticles.com/TechArticles/getAllArticles
+
+
+
+noun based  : restful URL
+
+http://techarticles.com/TechArticles/article/101   GET
+http://techarticles.com/TechArticles/article/101   DELETE
+http://techarticles.com/TechArticles/article/101   PUT
+http://techarticles.com/TechArticles/allArticles   GET
+
+
+2) HTTP methods
+HTTP methods:  CRUD
+get   - read
+post  - create
+put   - update
+delete - delete
+
+trace
+options
+command
+
+
+3) REST - REpresentation State Transfer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
